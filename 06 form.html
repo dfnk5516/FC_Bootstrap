@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>부트스트랩</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    li {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 입력그룹 검색 -->
+  <div class="container" style="padding-top:50px;">
+    <ul>
+      <li class="form-inline">
+        <label for="user_id">아이디</label>
+        <input type="text" id="user_id" class="form-control">
+      </li>
+      <li class="form-inline">
+        <label for="user_password">패스워드</label>
+        <input type="password" id="user_password" class="form-control">
+      </li>
+      <li class="form-inline">
+        <label for="user_birth_year">생년월일</label>
+        <select name="" id="user_birth_year" class="form-control">
+          <option value="">년도</option>
+          <option value="">1995</option>
+          <option value="">1994</option>
+        </select>
+        <select name="" id="user_birth_month" class="form-control">
+          <option value="">월</option>
+          <option value="">1</option>
+          <option value="">2</option>
+        </select>
+        <select name="" id="user_birth_day" class="form-control">
+          <option value="">일</option>
+          <option value="">1</option>
+          <option value="">2</option>
+        </select>
+      </li>
+      <li class="form-inline">
+        <input type="checkbox" name="" id="agree">
+        <label for="agree">약관에 동의하시겠습니까?</label>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
